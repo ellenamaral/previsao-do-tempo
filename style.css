@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display:flex ;
+    justify-content: center ;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.caixa-maior {
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 25px;
+    width: 60%;
+    max-width: 450px;
+}
+
+.input-cidade {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffff;
+    width: calc(100% - 60px);
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.bot-buscar {
+    padding: 10px;
+    border-radius: 100px;
+    background-color: #ffff;
+    opacity: 0.8;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    float: right;
+}
+
+.img-buscar {
+    width: 20px;
+    
+}
+
+.ico-previsao {
+    width: 35px;
+    margin-left: 10px;
+
+}
+
+.cidade {
+    color: #ffff;
+    font-weight: 300;
+    font-size: 28px;
+    margin: 15px;
+    margin-top: 20px;
+}
+
+.temperatura {
+    color: #ffff;
+    font-weight: 300;
+    font-size: 21px;
+    margin: 15px;
+
+
+
+}
+
+.clima {
+    color: #ffff;
+    font-weight: 300;
+    font-size: 21px;
+    margin: 15px;
+
+
+
+}
+
+.umidade {
+    color: #ffff;
+    font-weight: 300;
+    font-size: 21px;
+    margin: 15px;
+    margin-left: 60px;
+
+
+}
+
+.icon-umidade {
+    width: 28px;
+    margin: 10px;
+
+
+}
+
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+
