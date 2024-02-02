@@ -12,6 +12,8 @@ body {
     justify-content: center ;
     align-items: center;
     background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-repeat: no-repeat; /*para não repetir a imagem independente do tamanho da tela*/
+    background-size: cover; /*para ocupar toda a tela independente do tamanho*/
 }
 
 .caixa-maior {
@@ -49,13 +51,6 @@ body {
 
 .img-buscar {
     width: 20px;
-    
-}
-
-.ico-previsao {
-    width: 35px;
-    margin-left: 10px;
-
 }
 
 .cidade {
@@ -71,43 +66,40 @@ body {
     font-weight: 300;
     font-size: 21px;
     margin: 15px;
-
-
-
 }
 
-.clima {
-    color: #ffff;
-    font-weight: 300;
-    font-size: 21px;
-    margin: 15px;
-
-
-
-}
-
-.umidade {
-    color: #ffff;
-    font-weight: 300;
-    font-size: 21px;
-    margin: 15px;
-    margin-left: 60px;
-
-
-}
-
-.icon-umidade {
-    width: 28px;
-    margin: 10px;
-
-
-}
 
 
 .caixa-menor {
     display: flex;
     align-items: center;
     margin-top: 35px;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.icon-previsao {
+    width: 35px;
+    margin-left: 10px;
+}
+
+.clima {
+    color: #ffff;
+    font-weight: 300;
+    font-size: 21px;
+    margin: 5px;
+}
+
+.umidade {
+    color: #ffff;
+    font-weight: 300;
+    font-size: 21px;
+    margin: -15px;
+}
+
+.icon-umidade {
+    width: 28px;
+    margin: 20px;
 }
 
 
