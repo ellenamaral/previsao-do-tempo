@@ -6,8 +6,8 @@
 }
 
 main {
-    min-width: 300px; /*responsividade a depender do tamanho da tela*/
-    max-width: 800px; /*responsividade a depender do tamanho da tela*/
+    min-width: 200px; /*responsividade a depender do tamanho da tela*/
+    max-width: 760px; /*responsividade a depender do tamanho da tela*/
 }
 
 body {
@@ -26,7 +26,7 @@ body {
     opacity: 0.8;
     border-radius: 25px;
     padding: 25px;
-    width: 100%; /*responsividade*/
+    width: 97%; /*responsividade*/
     max-width: 450px;
 }
 
@@ -106,10 +106,3 @@ body {
     margin: 20px;
 }
 
-@media screen and (max-width: 768px) {
-    .caixa-maior {
-        display: block;
-    }
-/*responsividade para telas menores*/
-
-}
