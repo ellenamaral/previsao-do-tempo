@@ -26,7 +26,7 @@ body {
     opacity: 0.8;
     border-radius: 25px;
     padding: 25px;
-    width: 90%; /*responsividade*/
+    width: 100%; /*responsividade*/
     max-width: 450px;
 }
 
@@ -109,3 +109,10 @@ body {
 }
 
 
+@media screen and (max-width: 768px) {
+    .caixa-maior {
+        display: block;
+    }
+
+
+}
