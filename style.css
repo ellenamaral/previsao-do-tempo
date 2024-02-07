@@ -6,7 +6,7 @@
 }
 
 main {
-    min-width: 280px; /*responsividade a depender do tamanho da tela*/
+    min-width: 260px; /*responsividade a depender do tamanho da tela*/
     max-width: 800px; /*responsividade a depender do tamanho da tela*/
 }
 
